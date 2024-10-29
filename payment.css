@@ -1,0 +1,118 @@
+/* General form styling */
+body {
+    background-image: url(Img/payment\ form\ background.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form heading */
+h1, h2 {
+    color: rgb(13, 206, 61);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    width: 95%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.2em;
+    width: 95%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Form fields styling */
+p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Gender fieldset */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Radio buttons styling */
+input[type="radio"] {
+    margin: 0 5px 0 15px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    form {
+        width: 90%;
+    }
+}
